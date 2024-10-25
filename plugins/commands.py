@@ -558,7 +558,7 @@ async def start(client, message):
                     InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                     InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton("👨CONTACT ADMIN👨", url="t.me/KingVJ01")
+                    InlineKeyboardButton("👨CONTACT ADMIN👨", url="https://t.me/OneSupportSystem_bot")
                 ]]
             msg = await client.send_cached_media(
                 chat_id=message.from_user.id,
